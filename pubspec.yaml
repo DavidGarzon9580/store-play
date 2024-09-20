@@ -1,0 +1,68 @@
+name: flutter_store_play
+description: "A new Flutter project."
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    # Categorías principales
+    - assets/terror.jpg
+    - assets/accion.jpg
+    - assets/estrategia.jpg
+    - assets/carrera.jpg
+    - assets/aventura.jpg
+    - assets/deportes.jpg
+
+    # Terror
+    - assets/fnaf.jpg
+    - assets/walkingdead.jpg
+    - assets/escaperoom.jpg
+    - assets/ageoforigins.jpg
+
+    # Acción
+    - assets/arenabreakout.jpg
+    - assets/callofduty.jpg
+    - assets/bloodstrike.jpg
+    - assets/freefire.jpg
+
+    # Estrategia
+    - assets/clashroyale.jpg
+    - assets/mobilelegends.jpg
+    - assets/clashofclans.jpg
+    - assets/warandorder.jpg
+
+    # Carreras
+    - assets/asphalt8.jpg
+    - assets/realracing3.jpg
+    - assets/racemaxpro.jpg
+    - assets/nfs_sin_limites.jpg
+
+    # Aventuras
+    - assets/pokemon_go.jpg
+    - assets/super_mario_run.jpg
+    - assets/soulknight.jpg
+    - assets/roblox.jpg
+
+    # Deportes
+    - assets/dream_league_soccer.jpg
+    - assets/ea_sports_ufc.jpg
+    - assets/nba_live_mobile.jpg
+    - assets/mlb_9_innings.jpg
